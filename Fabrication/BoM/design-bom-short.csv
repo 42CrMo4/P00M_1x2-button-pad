@@ -1,0 +1,9 @@
+Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datasheet,MF,MAXIMUM_PACKAGE_HEIGHT,Package,Price,Check_prices,STANDARD,PARTREV,SnapEDA_Link,MP,MANUFACTURER,Availability,SNAPEDA_PN
+1,Connector Header Surface Mount 4 position 0.039 (1.00mm),BM04B-SRSS-TB_LF__SN_,J1,BM04B-SRSS-TB_LF__SN_,BM04B-SRSS-TB_LF__SN__JST_BM04B-SRSS-TB_LF__SN_,1, ,,JST Sales,6.3 mm,None,None,https://www.snapeda.com/parts/BM04B-SRSS-TB(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=eda,Manufacturer Recommendations,N/A,https://www.snapeda.com/parts/BM04B-SRSS-TB(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=snap,BM04B-SRSS-TB(LF)(SN),JST Sales America Inc.,In Stock,BM04B-SRSS-TB(LF)(SN)
+2,Connector Header Surface Mount 4 position 0.039 (1.00mm),BM04B-SRSS-TB_LF__SN_,J2,SM04B-SRSS-TB_LF__SN_,JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,1, ,,JST Sales,6.3 mm,None,None,https://www.snapeda.com/parts/BM04B-SRSS-TB(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=eda,Manufacturer Recommendations,N/A,https://www.snapeda.com/parts/BM04B-SRSS-TB(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=snap,BM04B-SRSS-TB(LF)(SN),JST Sales America Inc.,In Stock,BM04B-SRSS-TB(LF)(SN)
+3,,SW_Push,SW1 SW2,SW_Push,B3F-4055_SW_B3F-4055,2, ,~,,,,,,,,,,,,
+
+
+
+
+

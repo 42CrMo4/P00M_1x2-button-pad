@@ -552,8 +552,43 @@
 		)
 	)
 	(no_connect
+		(at 167.64 114.3)
+		(uuid "2bbaab93-c054-416c-afeb-deaba5121ecd")
+	)
+	(no_connect
 		(at 167.64 90.17)
 		(uuid "efe918e9-1fa9-4fa7-a55a-dc6a61bc46e0")
+	)
+	(global_label "B1"
+		(shape input)
+		(at 167.64 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "038074f8-d889-4abe-85a7-6f62f21ae443")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.64 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Referenzen zwischen Schaltplänen" "${INTERSHEET_REFS}"
+			(at 162.8363 104.0606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "VCC"
 		(shape input)
@@ -650,6 +685,37 @@
 	)
 	(global_label "VCC"
 		(shape input)
+		(at 167.64 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "54cc9be6-6b95-4b5d-a38b-fad3c446be52")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.64 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Referenzen zwischen Schaltplänen" "${INTERSHEET_REFS}"
+			(at 161.6872 101.5206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC"
+		(shape input)
 		(at 109.22 101.6 180)
 		(fields_autoplaced yes)
 		(effects
@@ -712,6 +778,37 @@
 	)
 	(global_label "B2"
 		(shape input)
+		(at 167.64 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9b3d84fe-eb1d-43ce-9021-594b3df6cd5a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.64 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Referenzen zwischen Schaltplänen" "${INTERSHEET_REFS}"
+			(at 162.8363 106.6006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "B2"
+		(shape input)
 		(at 167.64 82.55 180)
 		(fields_autoplaced yes)
 		(effects
@@ -763,6 +860,37 @@
 		)
 		(property "Referenzen zwischen Schaltplänen" "${INTERSHEET_REFS}"
 			(at 162.8363 79.9306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 167.64 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d9920ece-e193-414f-a74a-417746d0c36e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.64 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Referenzen zwischen Schaltplänen" "${INTERSHEET_REFS}"
+			(at 161.4453 109.1406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1034,7 +1162,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "B3F-4005"
 			(at 114.3 81.28 0)
 			(effects
 				(font
@@ -1164,7 +1292,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "B3F-4005"
 			(at 114.3 96.52 0)
 			(effects
 				(font
@@ -1208,6 +1336,210 @@
 			(project ""
 				(path "/46918595-4a45-48e8-84c0-961b4db7f35f"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Snapeda:BM04B-SRSS-TB_LF__SN_")
+		(at 177.8 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db282415-8d85-47c0-b644-51ee8ff5168e")
+		(property "Reference" "J2"
+			(at 184.15 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SM04B-SRSS-TB_LF__SN_"
+			(at 184.15 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
+			(at 177.8 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "\n                        \n                            Connector Header Surface Mount 4 position 0.039 (1.00mm)\n                        \n"
+			(at 177.8 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "JST Sales"
+			(at 177.8 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "6.3 mm"
+			(at 177.8 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 177.8 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 177.8 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/BM04B-SRSS-TB(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=eda"
+			(at 177.8 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 177.8 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "N/A"
+			(at 177.8 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BM04B-SRSS-TB(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=snap"
+			(at 177.8 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "BM04B-SRSS-TB(LF)(SN)"
+			(at 177.8 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "JST Sales America Inc."
+			(at 177.8 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 177.8 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "BM04B-SRSS-TB(LF)(SN)"
+			(at 177.8 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d335a98-e1c9-40e7-aa73-55e53eb9785a")
+		)
+		(pin "2"
+			(uuid "f34d2cd7-0692-477b-94fe-bd3d15e78d29")
+		)
+		(pin "3"
+			(uuid "e13272a4-cd58-4dfe-b01e-97a24e92cab3")
+		)
+		(pin "4"
+			(uuid "e2aff93f-5440-4cf5-897b-5229bda800a0")
+		)
+		(pin "S1"
+			(uuid "5f0f99de-7b91-483d-9687-68f7392ea083")
+		)
+		(pin "S2"
+			(uuid "df08a370-4796-4339-8edb-9324c205fd14")
+		)
+		(instances
+			(project "design"
+				(path "/46918595-4a45-48e8-84c0-961b4db7f35f"
+					(reference "J2")
 					(unit 1)
 				)
 			)
